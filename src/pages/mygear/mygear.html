@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christopher Darren</title>
+    <link rel="stylesheet" href="mygear.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--NAVBAR-->
+    <section>
+    <header>           
+        <div class="navbar">
+            <div class="logo"><a href="#">C.D</a></div>
+            <ul class="navigation">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html">About</a></li>
+                <li><a href="../index.html">Skills</a></li>
+                <li><a href="../index.html">Project</a></li>
+                <li><a href="#">My Gear</a></li>
+                <li><a href="../index.html">Contact</a></li>  
+            </ul>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="dropdown_menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">My Gear</a></li>
+            <li><a href="#">Contact</a></li>
+        </div> 
+    </header>
+
+   <script>
+    const toggleBtn = document.querySelector('.toggle_btn');
+    const toggleBtnIcon = document.querySelector('.toggle_btn icon')
+    const dropDownMenu = document.querySelector('.dropdown_menu')
+
+    toggleBtn.onclick = function(){
+        dropDownMenu.classList.toggle('open')
+        const isOpen = dropDownMenu.classList.contains('open')
+
+        toggleBtnIcon.classList = isOpen
+        ? 'fa-solid fa-xmark'
+        : 'fa-solid fa-bars'
+    }
+
+   </script>
+   <!--NAVBAR END-->
+</section>
+
+        <div class="content">
+            <h1>Specification</h1>
+            <br></br>
+            <div class="container">
+              <div class="row">
+                <div class="card">
+                  <img src="https://www.asus.com/media/global/gallery/ibht3480pzgjpbde_setting_xxx_0_90_end_2000.png" alt="pict">
+                  <h4><a href="https://www.asus.com/id/laptops/for-gaming/tuf-gaming/">ASUS TUF Gaming A15 (2020)</a></h4>
+                  <p>Ryzen 5 4600H , GTX 1650, W10, 512GB</p>
+                </div>
+                <div class="card">
+                  <img src="https://www.psegameshop.com/wp-content/uploads/2020/11/G-102-V2-Lightsync-Gaming-Mouse-White.png" alt="pict">
+                  <h4><a href="https://www.logitechg.com/en-in/products/gaming-mice/g102-lightsync-rgb-gaming-mouse.910-005803.html">Logitech G102</a></h4>
+                  <p>Prodigy Gaming Mouse</p>
+              </div>
+              <div class="card">
+                <img src="https://res.cloudinary.com/corsair-pwa/image/upload/f_auto,q_auto/v1/akamai/pdp/harpoon-rgb-pro/images/harpoon_rgb_pro_play_your_way.png" alt="pict">
+                <h4><a href="https://www.corsair.com/us/en/p/gaming-mouse/ch-9301011-na/harpoon-rgb-gaming-mouse-ch-9301011-na">CORSAIR HARPOON RGB</a></h4>
+                <p>Gaming Mouse high DPI</p>
+              </div>
+                <div class="card">
+                  <img src="https://id.jbl.com/dw/image/v2/AAUJ_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw3b9796ab/450BT_black_angle_01-1606x1606px.png?sw=537&sfrm=png" alt="pict">
+                  <h4><a href="https://id.jbl.com/over-ear-headphones/JBL+T450BT.html">JBL T450BT</a></h4>
+                  <p>Daily Headphone</p>
+              </div>
+              <div class="card">
+                <img src="https://www.nyk.co.id/wp-content/uploads/2020/07/Template-deskripsi-A902.png" alt="pict">
+                <h4><a href="https://www.nyk.co.id/office/cable/nyk-a90-everest/">NYK Nemesis A90</a></h4>
+                <p>Gaming Webcam</p>
+              </div>
+              </div>
+            </div>
+        </div>
+
+            <!--<div class="row">
+                <div class="column">
+                  <div class="card">
+                    <img src="https://www.asus.com/media/global/gallery/ibht3480pzgjpbde_setting_xxx_0_90_end_2000.png" alt="pict">
+                    <div class="container">
+                        <a href="https://www.asus.com/id/laptops/for-gaming/tuf-gaming/">ASUS TUF A15 (2020)</a>
+                        <p>Ryzen 5 4600H , GTX 1650, W10, 512GB</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="card">
+                    <img src="https://www.psegameshop.com/wp-content/uploads/2020/11/G-102-V2-Lightsync-Gaming-Mouse-White.png" alt="pict">
+                    <div class="container">
+                        <a href="https://www.logitechg.com/en-in/products/gaming-mice/g102-lightsync-rgb-gaming-mouse.910-005803.html">Logitech G102</a>
+                        <p>Prodigy Gaming Mouse</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="card">
+                    <img src="https://id.jbl.com/dw/image/v2/AAUJ_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw3b9796ab/450BT_black_angle_01-1606x1606px.png?sw=537&sfrm=png" alt="pict">
+                    <div class="container">
+                        <a href="https://id.jbl.com/over-ear-headphones/JBL+T450BT.html">JBL T450BT</a>
+                        <p>Daily Headphone</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="card">
+                    <img src="https://www.nyk.co.id/wp-content/uploads/2020/07/Template-deskripsi-A902.png" alt="pict">
+                    <div class="container">
+                        <a href="https://www.nyk.co.id/office/cable/nyk-a90-everest/">NYK Nemesis A90</a>
+                        <p>Gaming Webcam</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br></br>
+              <h1>Software</h1>
+        </div>-->
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Christopher Darren</title>
+        <link rel="stylesheet" href="home_index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    </head>
+    <body>
+        <!--NAVBAR-->
+       <header>           
+            <div class="navbar">
+                <div class="logo"><a href="#">C.D</a></div>
+                <ul class="navigation">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="./mygear/mygear.html">My Gear</a></li>
+                    <li><a href="#contact">Contact</a></li>   
+                </ul>
+                <div class="toggle_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <div class="dropdown_menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">My Gear</a></li>
+                <li><a href="#">Contact</a></li>
+            </div> 
+        </header>
+
+       <script>
+        const toggleBtn = document.querySelector('.toggle_btn');
+        const toggleBtnIcon = document.querySelector('.toggle_btn icon')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick = function(){
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark':
+             'fa-solid fa-bars'
+        }
+
+       </script>
+       <!--NAVBAR END-->
+
+       <section>
+            <div class="landing_content">
+                <div class="container">
+                    <div class="image-container">
+                        <img src="https://media.licdn.com/dms/image/C5603AQH9CsIbJXC2hA/profile-displayphoto-shrink_800_800/0/1660966156458?e=2147483647&v=beta&t=PrxtMIMn6bU0ylixekolAFCD6QBwz5v7kD_Pjam7L6w" alt="tampandanpemberani">
+                    </div>
+                    <h1>Christopher Darren</h1>
+                    <p>Junior web dev (front-end)</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="about" class="about">
+            <div class="about_container">
+                <div class="row">
+                    <h2>About</h2>
+                </div>
+                <div class="grid-container">
+                <div class="row">
+                    <p>I really loves about computer stuff because studying about it makes me feel happy and curious. 
+                       Hi all !, <b>I'm Darren</b> and nice to meet you all. Studying in Multimedia Nusantara University on 2021 majoring at Information System.
+                       For now I'm currently learning how to make a simple website properly and studying about a responsive website design. To be honest
+                       it's kinda hard but I'll try do my best to overcome it.</p>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="Skills "class="skill">
+            <div class="skills_container">
+                <div class="row">
+                    <h2>Skills</h2>
+                </div>
+                <div class="grid-container2">
+                <div class="row">
+                    <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="html">
+                    <img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png" alt="css">
+                    <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-512.png" alt="github">
+                    <img src="https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/660277-Python_logo-512.png" alt="py">
+                    <img src="https://cdn4.iconfinder.com/data/icons/adobe-apps/512/Premiere_pro-512.png" alt="premiere">
+                    <img src="https://cdn4.iconfinder.com/data/icons/logos-brands-in-colors/3000/figma-logo-512.png" alt="figma">
+                    <img src="https://cdn4.iconfinder.com/data/icons/logos-brands-in-colors/3000/figma-logo-512.png" alt="figma">
+                    <img src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Windows_Phone-512.png" alt="Windows">
+
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="project" class="project">
+            <div class="project_container">
+                <div class="row">
+                    <h2>Project</h2>
+                </div>
+                <div class="grid-container3">
+                <div class="row2">
+                <div class="card">
+                    <img src="https://avatarfiles.alphacoders.com/324/324402.jpg" alt="chizurubot">
+                    <p><a href="">Chizuru-v1 Bot</a></p>
+                </div>
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDGSKn5GQCRuTvwRXVAX8DZ74qTvYClwc8BPB0HhLuoayP41HiVjujv-9iUBCKiVwyXSQ&usqp=CAU" alt="BDA">
+                    <p><a href="">KimochiMart 4th Semester Exam</a></p>  
+                </div>
+                <div class="card">
+                    <img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2020/03/db6-e1584577503359.png" alt="Pohonlink">
+                    <p><a href="">DBSCAN Clustering project</a></p>  
+                </div>  
+                </div>
+                <div class="row2">
+                    <div class="card">
+                        <img src="https://avatarfiles.alphacoders.com/324/324402.jpg" alt="soon">
+                        <p><a href="">Hello</a></p>    
+                    </div>
+                    <div class="card">
+                        <img src="https://avatarfiles.alphacoders.com/324/324402.jpg" alt="soon">
+                        <p><a href="">Hello</a></p>    
+                    </div>
+                    <div class="card">
+                        <img src="https://avatarfiles.alphacoders.com/324/324402.jpg" alt="soon">
+                        <p><a href="">Hello</a></p>    
+                    </div>  
+                 </div>
+                </div>
+            </div> 
+            </div>
+        </section>
+    
+
+        <!--FOOTER-->
+        <footer>
+            <div id="contact" class="footer">
+                <div class="row">
+                    <ul class="links">
+                        <li><a href="https://github.com/darrenxx3"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/christopher-darren-8636b5234/"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://www.instagram.com/darrr2005/"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/christopher.darren.33/"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><p>&copy; 2023 Copyright</p></li>
+                        <p>Made &#10084; by Christopher Darren</p>
+                    </ul>             
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
