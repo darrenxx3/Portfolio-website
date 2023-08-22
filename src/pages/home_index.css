@@ -403,6 +403,38 @@ h2{
     }
 }
 
+@media (max-width:780px){
+    .grid-container2 .row img{
+        width: 11%;
+        height: auto;
+        
+    }
+}
+
+@media (max-width:600px){
+    .grid-container2 .row img{
+        width: 11%;
+        height: auto;
+        
+    }
+}
+
+@media (max-width:480px){
+    .grid-container2 .row img{
+        width: 13%;
+        height: auto;
+        
+    }
+}
+
+@media (max-width:360px){
+    .grid-container2 .row img{
+        width: 15%;
+        height: auto;
+        
+    }
+}
+
 @media (max-width:1068px){
     .project .project_container{
         margin-right: 30px;
