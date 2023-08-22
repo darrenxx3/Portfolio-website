@@ -379,22 +379,31 @@ h2{
 }
 
 
-@media (max-width:1050px){
+@media (max-width:1068px){
     .about .about_container{
         margin-right: 30px;
         margin-left: 30px;
     }
 }
 
-@media (max-width:1050px){
+@media (max-width:1068px){
     .skill .skills_container{
         margin-right: 30px;
         margin-left: 30px;
+        
+    }
+    
+}
+
+@media (max-width:900px){
+    .grid-container2 .row img{
+        width: 10%;
+        height: auto;
+        
     }
 }
 
-
-@media (max-width:1050px){
+@media (max-width:1068px){
     .project .project_container{
         margin-right: 30px;
         margin-left: 30px;
