@@ -372,6 +372,36 @@ h2{
     }
 }
 
+@media (max-width: 360px){
+    img{
+        width: 18%;
+    }
+}
+
+
+@media (max-width:1050px){
+    .about .about_container{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:1050px){
+    .skill .skills_container{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+}
+
+
+@media (max-width:1050px){
+    .project .project_container{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+}
+
+
 /*Footer*/
 footer .footer {
     padding: 10px 0;
