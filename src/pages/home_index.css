@@ -372,12 +372,6 @@ h2{
     }
 }
 
-@media (max-width: 360px){
-    img{
-        width: 18%;
-    }
-}
-
 
 @media (max-width:1068px){
     .about .about_container{
@@ -442,6 +436,64 @@ h2{
     }
 }
 
+@media (max-width:600px){
+    .grid-container3 .row2{
+        flex-wrap: wrap;
+        margin-bottom: 70%;
+    }
+    
+    .grid-container3 .card{
+        display: flex;
+        width: 85%;
+        height: 40%;
+        margin-bottom: 15px;
+    
+    }
+    .grid-container3 .row2 img{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:400px){
+    .grid-container3 .row2{
+        flex-wrap: wrap;
+        margin-right:5px;
+        padding: 0 3px;
+        
+    }
+    
+    .grid-container3 .card{
+        display: flex;
+        width: 75%;
+        margin-bottom: 15px;
+        
+    }
+    .grid-container3 .row2 img{
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+}
+
+@media (max-width:520px){
+    .grid-container3 .row2{
+        flex-wrap: wrap;
+        
+    }
+    
+    .grid-container3 .card{
+        display: flex;
+        width: 75%;
+        margin-bottom: 15px;
+        padding-bottom: 1px;
+    }
+    .grid-container3 .row2 img{
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+}
 
 /*Footer*/
 footer .footer {
