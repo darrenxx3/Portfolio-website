@@ -458,14 +458,15 @@ h2{
 @media (max-width:400px){
     .grid-container3 .row2{
         flex-wrap: wrap;
-        margin-right:5px;
+        margin: 0 11px;
         padding: 0 3px;
+        margin-bottom: 80%;
         
     }
     
     .grid-container3 .card{
         display: flex;
-        width: 75%;
+        width: 100%;
         margin-bottom: 15px;
         
     }
@@ -484,7 +485,7 @@ h2{
     
     .grid-container3 .card{
         display: flex;
-        width: 75%;
+        width: 85%;
         margin-bottom: 15px;
         padding-bottom: 1px;
     }
@@ -494,6 +495,7 @@ h2{
         
     }
 }
+
 
 /*Footer*/
 footer .footer {
