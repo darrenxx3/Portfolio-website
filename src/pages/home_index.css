@@ -232,7 +232,6 @@ header{
 }
 .image-container img{
     border-radius: 160px;
-    max-width: 18%;
     margin-top: 80px;
     width: 18%;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 2);
@@ -372,6 +371,44 @@ h2{
     }
 }
 
+@media (max-width: 600px){
+    .landing_content{
+        padding: 30px;
+    }
+    .image-container img{
+        width: 50%;
+        height: auto;
+    }
+}
+
+ @media (max-width: 1285px){
+    .landing_content{
+        padding: 30px;
+    }
+    .image-container img{
+        width: 25%;
+        height: auto;
+    }
+}
+
+@media (max-width: 800px){
+    .landing_content{
+        padding: 30px;
+    }
+    .image-container img{
+        width: 40%;
+        height: auto;
+    }
+}
+
+/* @media all and (max-width:768px){
+    .landing_content{
+        padding: 30px;
+    }
+    .container img{
+        max-width: 100%;
+    }
+} */
 
 @media (max-width:1068px){
     .about .about_container{
