@@ -437,6 +437,14 @@ h2{
 }
 
 @media (max-width:600px){
+    .project .project_container{
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width:600px){
     .grid-container3 .row2{
         flex-wrap: wrap;
         margin-bottom: 70%;
@@ -539,3 +547,17 @@ footer .links i{
 }
 
 /*Responsive Footer*/
+@media (max-width:600px){
+    footer .footer{
+        position: relative;
+    }
+}
+
+@media (max-width:450px){
+    footer .footer{
+        position: relative;
+    }
+    footer .footer ul{
+        text-align: center;
+    }
+}
