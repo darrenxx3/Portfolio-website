@@ -473,7 +473,7 @@ h2{
     }
 }
 
-@media (max-width:600px){
+@media (max-width:800px){
     .project .project_container{
         margin-right: 30px;
         margin-left: 30px;
@@ -584,7 +584,7 @@ footer .links i{
 }
 
 /*Responsive Footer*/
-@media (max-width:600px){
+@media (max-width:800px){
     footer .footer{
         position: relative;
     }
